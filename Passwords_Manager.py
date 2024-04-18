@@ -243,7 +243,7 @@ def main():
 
 
 if __name__ == "__main__":
-    text_file = r"D:\\Vihaan Files\\Coding\\Hello2\\Manger.idc"
+    text_file = r"Enter text file location"
     with open(text_file, "r") as r:
         lines = r.readlines()
         passwords = {}
